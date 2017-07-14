@@ -1,0 +1,17 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="home.html">Home</a>
+        <a class="navbar-brand" href="services.html">Our Services</a>
+        <a class="navbar-brand" href="food.html">Recipe Gallery</a>
+        <a class="navbar-brand" href="hot.html">Hot Topics</a>
+        <a class="navbar-brand" href="aboutme.html">About me</a>
+        <a class="navbar-brand" href="contact.html">Contact Information</a>
+    </div>

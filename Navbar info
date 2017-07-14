@@ -1,0 +1,47 @@
+<body>
+       
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+               
+              <a class="navbar-brand" href="#">Healthy NIbblers!</a>
+             
+            </div>
+        <ul class="nav nav-tabs">
+        
+            <li class="active"><a href="home.html"> Home </a></li>
+            <li><a href="#services.html"> Our Services</a></li>
+            <li><a href= "#food.html"> Recipe Gallery</a></li>
+            <li><a href= "#Hot">Hot Topics</a></li>
+            <li><a href= "#aboutme..html"> About Me</a></li>
+            <li><a href= "#contact.html"> Contact Information</a></li>
+        </ul>
+        
+   
+                <div class= "jumbotron">
+                <h1> Join now for Prime Membership, Learn and Share Your cooking idea with Millions!</h1>
+                <p><a class="btn btn-primary btn-lg" href= "home.html" role= "button"> Explore </a> </p>
+                </div>
+                </div>
+               </nav>     
+            </body>
+            </html>
+          
+          
+          //
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Healthy Nibblers!</a>
+    </div>
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="home.html"> Home </a></li>
+      <li><a href="services.html"> Our Services</a></li>
+      <li><a href="food.html"> Recipe Gallery</a></li>
+      <li><a href="hot.html">Hot Topics</a></li>
+      <li><a href="aboutme.html"> About Me</a></li>
+      <li><a href="contact.html"> Contact Information</a></li>
+    </ul>
+    </div>
+</nav>  
+//

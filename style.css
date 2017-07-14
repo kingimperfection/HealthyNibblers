@@ -1,0 +1,89 @@
+#hello {
+    border-radius: 200px;
+}
+
+#img1 {
+    height: 100%;
+    width: 100%;
+}
+
+#img2 {
+    height: 100%;
+    width: 100%;
+}
+
+#img3 {
+    height: 100%;
+    width: 100%;
+}
+
+#itembox {
+    background-color: black;
+    height: 500px;
+    width: 500px;
+}
+.space{
+    height:85px;
+    
+    
+}
+container{
+    height:300px;
+    width:300px;
+    }
+
+h1{
+ font-family: 'Kaushan Script', cursive; 
+    
+}
+#sevb{
+    background-color: #7F903C;
+    
+}
+body {
+    background-color: #F8CB81;
+}
+h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 50px;
+}
+#forum{
+    margin:auto;
+    background-color:#A0988B;
+    width:90%;
+    height:50%;
+    box-shadow: 10px 10px #CCC2B1;
+    font-family: 'Cabin', sans-serif;
+    }
+
+#img4{
+    height:200px;
+    width:300px;
+}
+p1{
+    font-size: 25px;
+}
+#button{
+    background-color:#A0988B;
+    position:absolute;
+    padding: 5px;
+    top: 81%;
+    left:91%;
+    box-shadow: 2px 2px #CCC2B1;
+}
+
+h3{
+    font-family: 'Bellefair', serif;
+    font-size:50px;
+    
+}
+#cnt{
+   font-family: 'Cabin', sans-serif; 
+}
+
+
+#food{
+    background-color:#C3BAAA;
+    
+}
