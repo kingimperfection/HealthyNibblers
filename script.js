@@ -5,7 +5,7 @@ $(document).ready(function() {
         $("#head").replaceWith(data);
     });
     $.get("navbar.html", function(data){
-        $("#bar").replaceWith(data);
+        $(".bar").replaceWith(data);
     });
     $('ul li').click(function(){
         var clicked_tab = $(this);

@@ -49,7 +49,7 @@ h2 {
     font-size: 50px;
 }
 #forum{
-    margin:auto;
+
     background-color:#A0988B;
     width:90%;
     height:50%;
@@ -58,8 +58,8 @@ h2 {
     }
 
 #img4{
-    height:200px;
-    width:300px;
+    height:80%;
+    width:80%;
 }
 p1{
     font-size: 25px;
@@ -78,6 +78,11 @@ h3{
     font-size:50px;
     
 }
+h4{
+    font-family: 'Bellefair', serif;
+    font-size:50px;
+    
+}
 #cnt{
    font-family: 'Cabin', sans-serif; 
 }
@@ -86,4 +91,19 @@ h3{
 #food{
     background-color:#C3BAAA;
     
+}
+p3{
+    font-size:20px;
+    }
+p5{
+    font-size:27px;
+}
+    
+#link1{
+    text-font: 24px;
+}
+
+#img5{
+    height:80%;
+    width:80%;
 }
