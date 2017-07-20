@@ -1,3 +1,9 @@
+.navbar-brand>img {
+  
+  height: 100%;
+  width: auto;
+}
+
 #hello {
     border-radius: 200px;
 }
@@ -33,44 +39,61 @@ container{
     }
 
 h1{
- font-family: 'Kaushan Script', cursive; 
+    text-align:center;
+     font-family: 'Open Sans', sans-serif; 
+    
+}
+#well{
+    text-align:center;
+     font-family: 'Cabin', sans-serif; 
     
 }
 #sevb{
-    background-color: #7F903C;
+    background-color: #ADBD6A;
     
 }
 body {
-    background-color: #F8CB81;
+    background-color: #60BCAE;
 }
 h2 {
     font-family: 'Playfair Display', serif;
     text-align: center;
     font-size: 50px;
 }
+#divinfospace{
+    background-color:#D3D354;
+    width:90%;
+    height:200px;
+    border:solid #FFF2DD 2px;
+    font-family: 'Cabin', sans-serif;
+    margin:auto;
+    
+    
+}
 #forum{
-
-    background-color:#A0988B;
+    margin:auto;
+    background-color:#D3D354;
     width:90%;
     height:50%;
-    box-shadow: 10px 10px #CCC2B1;
+    border:solid #FFF2DD 2px;
     font-family: 'Cabin', sans-serif;
     }
-
-#img4{
-    height:80%;
-    width:80%;
+footer{
+    height:85px;
+}
+.accimgs{
+    height:100%;
+    width:100%;
 }
 p1{
     font-size: 25px;
 }
 #button{
     background-color:#A0988B;
-    position:absolute;
     padding: 5px;
-    top: 81%;
+    top: 87%;
     left:91%;
-    box-shadow: 2px 2px #CCC2B1;
+    box-shadow: 2px 2px #FFF2DD;
 }
 
 h3{
@@ -100,10 +123,43 @@ p5{
 }
     
 #link1{
-    text-font: 24px;
+    font-size: 24px;
 }
 
 #img5{
     height:80%;
     width:80%;
+}
+#navcss{
+    color:#FFF2DD;
+    background-color:#CCC2B1;
+    font-family: 'Cabin', sans-serif;
+}
+#img6{
+    height:80%;
+    width:80%;
+}
+
+p6{
+    font-size:24px;
+}
+h5{
+    font-family: 'Bellefair', serif;
+    font-size:50px;
+}
+#pamela{
+   height:500px;
+   width:500px;
+    margin: 80px 20px 10px 10px;
+    float:left;
+    position:fixed;
+    border: solid black 5px;
+}
+
+.ok{
+    color:black;
+}
+
+#abt{
+    
 }
