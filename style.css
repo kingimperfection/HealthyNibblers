@@ -10,7 +10,7 @@
 
 #img1 {
     height: 100%;
-    width: 100%;
+    width:100%;
 }
 
 #img2 {
@@ -63,7 +63,7 @@ h2 {
 #divinfospace{
     background-color:#D3D354;
     width:90%;
-    height:200px;
+    height:auto;
     border:solid #FFF2DD 2px;
     font-family: 'Cabin', sans-serif;
     margin:auto;
@@ -139,6 +139,21 @@ p5{
     height:80%;
     width:80%;
 }
+.tht{
+    font-size:20px;
+    text-align:left;
+
+}
+
+.topics{
+    margin:auto;
+    text-align:center;
+    background-color:#D3D354;
+    height: auto;
+    width: 100%;
+    border:solid #FFF2DD 2px;
+    font-family: 'Cabin', sans-serif;
+}
 
 p6{
     font-size:24px;
@@ -148,18 +163,36 @@ h5{
     font-size:50px;
 }
 #pamela{
-   height:500px;
-   width:500px;
+   height:470px;
+   
     margin: 80px 20px 10px 10px;
-    float:left;
-    position:fixed;
-    border: solid black 5px;
+    
+    border:solid #FFF2DD 2px;
+    
 }
 
 .ok{
     color:black;
 }
-
-#abt{
+.tweet{
+    height:25px;
+  width:30px;  
+}
+#paminfo{
+    border:solid #FFF2DD 2px;
+    background-color:#D3D354;
     
+}
+#img7{
+    height:100%;
+    width:100%;
+}
+#img8{
+  height:100%;
+  width:100%;
+}
+
+#topfood{
+  height:150px;
+  width:auto;
 }

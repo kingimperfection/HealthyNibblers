@@ -1,42 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <div id = "head"> </div>
+    <head>
+     <title> Healthy Nibbler </title>
+     <style>
+body {
+    height: 1000px;
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #60BCAE,#CCC2B1); /* For Safari 5.1 to 6.0 */
+  
+    background: linear-gradient(to bottom right, #60BCAE,#CCC2B1); /* Standard syntax (must be last) */
+}
+</style>
+    <!-- Latest compiled and minified CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" />
+    <!-- CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha256-ZT4HPpdCOt2lvDkXokHuhJfdOKSPFLzeAJik5U/Q+l4=" crossorigin="anonymous" />
+    <!-- Latest compiled and minified JavaScript -->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+</head>
+
     <body>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
         <script src="script.js"></script>
         <div class = "bar"> </div>
-        <div id ="pfp"> </div>
-        <p id="me"></p>
+
     <div class="container">
         <div class="row">
             <div class="col-xs-6">
-                <img id= "pamela" src= "https://mail.google.com/mail/u/0/?ui=2&ik=fede138fcf&view=fimg&th=15d607e1da6df57b&attid=0.1&disp=emb&realattid=15d607d961c87c8d5a01&attbid=ANGjdJ8hD0GIE4x1ZGZhzpWYCULte3oIlE-5QQ5U0lx5Agaiq0lPcfhLLuiDNCF5dLZti33jp0warBHecybVYWOR64p3rtrrNiJ6f0ZRDZ8LH1kiTxh2ydyBtX4Vr78&sz=s0-l75-ft&ats=1500562536952&rm=15d607e1da6df57b&zw&atsh=1">
+                <div class= "view">
+               
+                <img id= "pamela" src= "pampfp.jpg" >
+                <div class="mask pattern-1 flex center">
+                <p class="white-text"></p>   
                 
-                
-                
-                
+                </div>
+                </div>
             </div>
-            <div class= "col-xs-6">
-                <br> <br> <br> <br>
-                
-                
-                <h5> Pamela L. Borris</h5>
-                <p6 id= "abt">
-                    Hello! Im Pamela,Doctoral Candidate in Nutritional Epidemiology &
-                    Nutritional Sciences. I work in a field that ensures people are eating correctly and staying healthy.
-                    <br>
-                    When Im not working i enjoy cooking new foods and listening to music .
-                    <br><br>
-                    <a class= "ok" href= "https://twitter.com/TeamNutrition" target="_blank">#Nutrition</a> 
-                    <br><a class= "ok" href="https://twitter.com/MMUNutrSciences">#Nutritional Sciences</a> 
-                    </br><a class="ok" href= "https://twitter.com/HarvardEpi">#Nutrional Epidemiology</a> 
-        
-                </p6>
-            </div>
+        <div class="space"> </div>
+        <div id="paminfo" class= "col-xs-6">
+
+            <h5> Pamela L. Borris</h5>
+            <p6 id= "abt">
+                Hello! Im Pamela,Doctoral Candidate in Nutritional Epidemiology &
+                Nutritional Sciences. I work in a field that ensures people are eating correctly and staying healthy.
+                <br>
+                When I'm not working I enjoy cooking new foods and listening to music.
+                <br><br>
+                <img class="tweet" src="twitter.png">
+                <a class= "ok" href= "https://twitter.com/TeamNutrition" target="_blank">#Nutrition</a> 
+                <br><img class="tweet" src="twitter.png"><a class= "ok" href="https://twitter.com/MMUNutrSciences">#Nutritional Sciences</a> 
+                </br><img class="tweet" src="twitter.png"><a class="ok" href= "https://twitter.com/HarvardEpi">#Nutrional Epidemiology</a> 
+            </p6>
         </div>
-        <div class>
-            
-            
         </div>
     </div>
     </body>
